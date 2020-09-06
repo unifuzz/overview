@@ -1,4 +1,4 @@
-# overview of UNIFUZZ
+# Overview of UNIFUZZ platform
 
 
 ## Introduction
