@@ -54,4 +54,6 @@ https://github.com/unifuzz/metrics
 
 
 ### 5. Supplementary Results of UNIFUZZ Paper
-Due to space limitaion of the published paper, we present some supplementary results of UNIFUZZ paper here [supplementary results of UNIFUZZ paper](https://github.com/unifuzz/supplementary_results).
+Due to space limitaion of the published paper, we present some supplementary results of UNIFUZZ paper here. 
+
+https://github.com/unifuzz/supplementary_results
