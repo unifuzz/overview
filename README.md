@@ -3,7 +3,7 @@
 
 ## Introduction
 
-UNIFUZZ is a platform which can be used to use or evaluate fuzzers conveniently.
+UNIFUZZ is a platform for using and evaluating fuzzers conveniently.
 UNIFUZZ consists of the following main components:
 - Useable Fuzzers
 - Benchmark
@@ -11,96 +11,47 @@ UNIFUZZ consists of the following main components:
 - Metrics for Evaluating Fuzzers
 
 
+The conrresponding paper is published on USENIX Security 2021 [paper pdf](https://nesa.zju.edu.cn/download/UNIFUZZ%20A%20Holistic%20and%20Pragmatic%20Metrics-Driven%20Platform%20for%20Evaluating%20Fuzzers.pdf). 
 
+For citing this paper:
 
-
-
-The conrresponding paper is published on USENIX Security 2021 [UNIFUZZ paper] (null link). 
-
-
+```
+@inproceedings{unifuzz-li,
+	title={{UNIFUZZ}: A Holistic and Pragmatic Metrics-Driven Platform for Evaluating Fuzzers},
+	author={Li, Yuwei and Ji, Shouling and Chen, Yuan and Liang, Sizhuang  and  Lee, Wei-Han and Chen, Yueyao and Lyu, Chenyang and Wu, Chunming and Beyah, Raheem and Cheng, Peng and Lu, Kangjie and Wang, Ting},
+	booktitle={Proceedings of  the  30th {USENIX} Security Symposium},
+	year={2021},
+}
+```
 
 ### 1. Useable Fuzzers
 
+Currently we provide Dockerfile for 35 usable fuzzers.
 
-
-#### Guidance for Submiting New Benchmark
-
-
+https://github.com/unifuzz/dockerized_fuzzing
 
 
 ### 2. Benchmark 
 
+Currently we provide 20 real-world programs for fuzzing evaluation.
 
-####  2.1 UNIBENCH
+https://github.com/unifuzz/unibench
 
-1. The installation and usage of UniBench programs
-2. The result analysis methods of UniBench programs 
+In addition, we also provide Dockerfile for building these programs under different fuzzer instrumentations.
 
-
-#### 2.2 Guidance for Submiting New Benchmark
-
+https://github.com/unifuzz/unibench_build
 
 
 ### 3. Seeds for Fuzzing
 
+This repo consists of the seeds used in the evaluations of UNIFUZZ paper.
 
-#### 3.1 Seeds Used in UNIFUZZ paper
-This repo consists of the seeds used in the evaluations of UNIFUZZ paper (cite).
-
-
-
-#### 3.2 Guidance for Submitting/Collection New Seeds
-
-
-
+https://github.com/unifuzz/seeds
 
 ### 4. Metrics for Evaluating Fuzzers
 
-
-#### 4.1 UNIFUZZ Metrics
 https://github.com/unifuzz/metrics
-
-
-#### 4.2 Discussion (TODO)
-
-
 
 
 ### 5. Supplementary Results of UNIFUZZ Paper
 Due to space limitaion of the published paper, we present some supplementary results of UNIFUZZ paper here [supplementary results of UNIFUZZ paper](https://github.com/unifuzz/supplementary_results).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
