@@ -11,7 +11,7 @@ UNIFUZZ consists of the following main components:
 - Metrics for Evaluating Fuzzers
 
 
-The conrresponding paper is published on USENIX Security 2021 [paper pdf](https://nesa.zju.edu.cn/download/UNIFUZZ%20A%20Holistic%20and%20Pragmatic%20Metrics-Driven%20Platform%20for%20Evaluating%20Fuzzers.pdf). 
+The corresponding paper will appear on USENIX Security 2021 [paper pdf](https://nesa.zju.edu.cn/download/UNIFUZZ%20A%20Holistic%20and%20Pragmatic%20Metrics-Driven%20Platform%20for%20Evaluating%20Fuzzers.pdf). 
 
 For citing this paper:
 
